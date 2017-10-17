@@ -5,7 +5,7 @@ iOSSystemSoundsLibrary
 - iOS Simulator does NOT play system sounds
 - [Screenshot](#screenshot)
 
-##Swift 4 
+## **Swift**
 
 ###How to use in your project:
 - import ``#import AVFoundation``
@@ -15,7 +15,7 @@ iOSSystemSoundsLibrary
 AudioServicesPlaySystemSound (1104); // KeyPressed (see SystemSoundID below)
 ```
 
-##OBJ C 
+## **Obj C**
 
 ###How to use in your project:
 - add ``AudioToolbox.framework`` to your project

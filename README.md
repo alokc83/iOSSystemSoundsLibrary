@@ -6,16 +6,18 @@ iOSSystemSoundsLibrary
 - [Screenshot](#screenshot)
 
 ##Swift 4 
-##How to use in your project:
+
+###How to use in your project:
 - import ``#import AVFoundation``
 
-####Play sound using SystemSoundID
+###Play sound using SystemSoundID
 ```swift
 AudioServicesPlaySystemSound (1104); // KeyPressed (see SystemSoundID below)
-
+```
 
 ##OBJ C 
-##How to use in your project:
+
+###How to use in your project:
 - add ``AudioToolbox.framework`` to your project
 - import ``#import <AudioToolbox/AudioToolbox.h>``
 
